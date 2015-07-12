@@ -1,0 +1,47 @@
+$navHeight: 53px
+
+.navMenu
+	padding-top: 40px
+	background: rgba(255, 255, 255, 0)	
+	float: left
+	width: 100%
+	position: absolute
+	height: auto 
+	display: block
+	z-index: 100 /* для отображения подпунктов поверх остальных блоков */
+	ul
+		clear: left
+		position: relative
+		right: 50%
+		height: $navHeight
+		float: right
+		text-align: center
+		list-style: none
+		padding: 0
+		margin: 0
+		li
+			position: relative
+			left: 50%
+			float: left
+			height: $navHeight
+			padding: 0
+			margin: 0
+			a
+				display: block
+				color: #fff
+				line-height: $navHeight
+				padding: 0 25px
+				text-transform: uppercase
+				color: #fff
+				font-size: 16px
+				font-weight: bold
+ 	  
+				&:hover
+					text-decoration: none
+				i
+					width: 53px
+					height: 55px
+					background-image: url("	../img/Livello-2.png")
+					background-repeat: no-repeat
+					background-position: center 
+					display: block

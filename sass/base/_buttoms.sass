@@ -1,0 +1,29 @@
+.homeStart
+	width: 166px
+	height: 49px
+	@include border-radius(3px)
+	@include background-clip(padding-box)
+	background-color: #159f85
+	color: #FFF
+	text-align: center
+	display: block
+	line-height: 49px
+	text-transform: uppercase
+	margin: 0 auto
+	margin-top: 30px
+	&:hover, &:active, &:focus 
+		color: #FFF
+		animation:  anim1 1s
+		 
+.twitter
+	display: block
+	background-image: url("../img/fa-twitter.png") 
+	background-repeat: no-repeat
+	width: 23px
+	height: 21px
+.flickr
+	@extend .twitter
+	background-image: url("../img/fa-flickr.png") 
+.dribble
+	@extend .twitter
+	background-image: url("../img/fa-dribbble.png") 
