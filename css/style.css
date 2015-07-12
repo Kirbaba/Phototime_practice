@@ -42,43 +42,43 @@
 
 @keyframes anim1 {
 	0% {
-		-moz-transform: rotate(15deg); /* Для Firefox */
-	    -ms-transform: rotate(15deg); /* Для IE */
-	    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
-	    -o-transform: rotate(15deg); /* Для Opera */
-	    transform: rotate(15deg);
+		-moz-transform: rotate(5deg); /* Для Firefox */
+	    -ms-transform: rotate(5deg); /* Для IE */
+	    -webkit-transform: rotate(5deg); /* Для Safari, Chrome, iOS */
+	    -o-transform: rotate(5deg); /* Для Opera */
+	    transform: rotate(5deg);
 	}
 	
 	25% {
-		-moz-transform: rotate(-15deg); /* Для Firefox */
-	    -ms-transform: rotate(-15deg); /* Для IE */
-	    -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
-	    -o-transform: rotate(-15deg); /* Для Opera */
-	    transform: rotate(-15deg);
+		-moz-transform: rotate(-5deg); /* Для Firefox */
+	    -ms-transform: rotate(-5deg); /* Для IE */
+	    -webkit-transform: rotate(-5deg); /* Для Safari, Chrome, iOS */
+	    -o-transform: rotate(-5deg); /* Для Opera */
+	    transform: rotate(-5deg);
 	}
 	50% {
-		-moz-transform: rotate(15deg); /* Для Firefox */
-	    -ms-transform: rotate(15deg); /* Для IE */
-	    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
-	    -o-transform: rotate(15deg); /* Для Opera */
-	    transform: rotate(15deg);
+		-moz-transform: rotate(5deg); /* Для Firefox */
+	    -ms-transform: rotate(5deg); /* Для IE */
+	    -webkit-transform: rotate(5deg); /* Для Safari, Chrome, iOS */
+	    -o-transform: rotate(5deg); /* Для Opera */
+	    transform: rotate(5deg);
 	}
 
 	75% {
-		-moz-transform: rotate(-15deg); /* Для Firefox */
-	    -ms-transform: rotate(-15deg); /* Для IE */
-	    -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
-	    -o-transform: rotate(-15deg); /* Для Opera */
-	    transform: rotate(-15deg);
+		-moz-transform: rotate(-5deg); /* Для Firefox */
+	    -ms-transform: rotate(-5deg); /* Для IE */
+	    -webkit-transform: rotate(-5deg); /* Для Safari, Chrome, iOS */
+	    -o-transform: rotate(-5deg); /* Для Opera */
+	    transform: rotate(-5deg);
 	}
 	
 
 	100% {
-		-moz-transform: rotate(15deg); /* Для Firefox */
-	    -ms-transform: rotate(15deg); /* Для IE */
-	    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
-	    -o-transform: rotate(15deg); /* Для Opera */
-	    transform: rotate(15deg);
+		-moz-transform: rotate(5deg); /* Для Firefox */
+	    -ms-transform: rotate(5deg); /* Для IE */
+	    -webkit-transform: rotate(5deg); /* Для Safari, Chrome, iOS */
+	    -o-transform: rotate(5deg); /* Для Opera */
+	    transform: rotate(5deg);
 	}
 }
 
