@@ -30,3 +30,8 @@ ul
 @mixin background-clip($clip)
 	-o-background-clip: 	$clip 
 	background-clip: 	$clip 
+
+@mixin transition($t)
+	-moz-transition: all $t linear
+	-o-transition: all $t linear
+	-webkit-transition: all $t linear

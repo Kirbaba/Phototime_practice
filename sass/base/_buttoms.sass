@@ -19,11 +19,27 @@
 	display: block
 	background-image: url("../img/fa-twitter.png") 
 	background-repeat: no-repeat
+	-webkit-background-size: contain
+	-o-background-size: contain
+	background-size: contain
 	width: 23px
 	height: 21px
+	@include transition (0.3s)
+	&:hover
+		width: 30px
+		height: 30px
+		margin-left: -7px		
 .flickr
 	@extend .twitter
 	background-image: url("../img/fa-flickr.png") 
+	&:hover
+		margin-top: -10px
+		margin-left: 0		
+		margin-right: -4px
+		margin-left: -3px
 .dribble
 	@extend .twitter
 	background-image: url("../img/fa-dribbble.png") 
+	height: 23px
+	&:hover		
+		margin-left: 7px
