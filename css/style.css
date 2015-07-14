@@ -82,6 +82,31 @@
 	}
 }
 
+@keyframes fromTop {
+	0%{
+		opacity: 0;		
+	}
+	50%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+@keyframes fromTopSec {
+	0%{
+		opacity: 0;
+		
+	}
+	50%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 .flip:hover {
 	animation:anim .75s;
 }

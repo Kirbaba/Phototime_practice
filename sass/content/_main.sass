@@ -11,7 +11,11 @@
 	display: block
 	padding: 90px 0
 	background: url("../img/iPhone-1.png") no-repeat 90% -25%
-	background-repeat: no-repeat	 
+	background-repeat: no-repeat
+	-webkit-animation: fromTop 5s 
+	-moz-animation: fromTop 5s 
+	-o-animation: fromTop 5s 
+	animation: fromTop 5s	 
 	&__text
 		display: block
 		width: 45%
@@ -25,5 +29,25 @@
 	&Start
 		@extend .homeStart
 		margin: 40px 0 0
-		 
-	
+.third
+	display: block
+	padding: 90px 0
+	background: url("../img/Flat-iPhone 5C Mock Up.png")  no-repeat 10% -70%
+	-webkit-animation: fromTopSec 5s 
+	-moz-animation: fromTopSec 5s 
+	-o-animation: fromTopSec 5s 
+	animation: fromTopSec 5s 
+	&__text
+		float: right
+		display: block
+		width: 45%
+	&__title
+		color: #159f85
+		font-size: 18px
+		display: block
+		width: 60%
+		text-transform: uppercase
+		margin-bottom: 40px 		 
+	&Start
+		@extend .homeStart
+		margin: 40px 0 0
