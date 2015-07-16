@@ -4,7 +4,7 @@ $(document).ready(function() {
         // dots: true,
         infinite: true,
         speed: 300,
-        slidesToShow: 8,
+        slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [{
             breakpoint: 1024,
