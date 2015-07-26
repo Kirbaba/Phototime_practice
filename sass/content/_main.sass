@@ -70,3 +70,63 @@
 		width: 75%
 		float: left
 		
+.fifth
+	display: block
+	position: relative
+	padding: 300px 0
+	background: url("../img/Livello-3.png")
+	-webkit-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	background-attachment: fixed
+	h3
+		color: #fff
+		font-size: 24px
+		font-weight: bold
+		text-transform: uppercase
+		margin-bottom: 35px
+		text-align: center		
+	&__form
+		display: block
+		width: 31%
+		margin: 0 auto
+		&__input
+			width: 280px
+			height: 60px
+			display: inline-block
+			line-height: 60px
+			@include border-radius(3px 0 0 3px)
+			@include background-clip(padding-box)
+			background-color: #fff
+			color: #373737
+			font-family: 'Helvetica'
+			font-size: 16px
+			outline: none
+			border: none 
+			padding: 0 25px 
+		&__sub
+			width: 63px
+			height: 60px
+			display: inline-block
+			@include border-radius(0 3px 3px 0)
+			@include background-clip(padding-box)
+			background-color: #159f85
+			background-image: url("../img/fa-check.png")
+			background-position: center
+			background-repeat: no-repeat
+			outline: none
+			border: none
+			vertical-align: bottom
+			margin-left: -5px
+			@include transition(1s)
+			&:hover
+				background-color: darken(#159f85, 15%)
+				-webkit-background-size: 50%
+				-o-background-size: 50%
+				background-size: 50% 
+			
+
+
+ 
+
+		
