@@ -124,7 +124,67 @@
 				-webkit-background-size: 50%
 				-o-background-size: 50%
 				background-size: 50% 
-			
+.sixth
+	display: block
+	position: relative
+	padding: 90px 0
+	background-color: #F5F6F7
+	h4
+		color: #373737
+		font-size: 20px
+		font-weight: bold
+		text-transform: uppercase
+		text-align: center
+	p
+		color: #373737
+		font-size: 12px
+		text-align: center
+		display: block
+		width: 50%
+		margin: 0 auto
+	&__links
+		display: block
+		width: 630 / 1172 * 100%
+		margin: 25px auto
+		&__but
+			width: 296px
+			height: 56px
+			line-height: 56px
+			display: inline-block
+			@include border-radius(3px)
+			@include background-clip(padding-box)
+			background-color: #19bb9b
+			color: #fff
+			font-size: 18px
+			font-weight: bold
+			text-transform: uppercase
+			padding-left: 20px
+			@include transition(1s)
+			i
+				width: 56px
+				height: 56px
+				display: block
+				float: right
+				background-color: #159f85
+				background-position: center
+				background-repeat: no-repeat
+				@include transition(1s)
+			.ios
+				background-image: url("../img/fa-apple.png")
+			.android
+				background-image: url("../img/fa-android.png")  
+			&:first-child
+				margin-right: 20px
+			&:hover
+				background-color: darken(#19bb9b, 15%)
+				i
+					background-color: darken(#159f85, 15%) 
+					-webkit-background-size: 50% 
+					-o-background-size: 50% 
+					background-size: 50% 
+
+
+
 
 
  
