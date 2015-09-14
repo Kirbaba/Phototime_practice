@@ -3,7 +3,7 @@ $(window).scroll(function() {
         var imagePos2 = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-            if (imagePos2-150 < topOfWindow) {  
+            if (imagePos2-400 < topOfWindow) {  
                 $(this).addClass("animated");            
                 $(this).addClass("visible");
                 $(this).addClass("fadeIn");            
@@ -14,7 +14,7 @@ $(window).scroll(function() {
         var imagePos2 = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-            if (imagePos2-150 < topOfWindow) {  
+            if (imagePos2-300 < topOfWindow) {  
                 $(this).addClass("animated");            
                 $(this).addClass("visible");
                 $(this).addClass("fadeIn");            
