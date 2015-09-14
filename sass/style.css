@@ -32,6 +32,9 @@ ul {
   -o-animation: fromTopSec 5s;
   animation: fromTopSec 5s; }
 
+.visible {
+  opacity: 1; }
+
 .homeStart, .secondStart, .thirdStart {
   width: 166px;
   height: 49px;
@@ -423,7 +426,8 @@ ul {
   background: url("../img/iPhone-1.png") no-repeat 90% -25%; }
   .second__text {
     display: block;
-    width: 45%; }
+    width: 45%;
+    opacity: 0; }
   .second__title {
     color: #159f85;
     font-size: 18px;
@@ -441,7 +445,8 @@ ul {
   .third__text {
     float: right;
     display: block;
-    width: 45%; }
+    width: 45%;
+    opacity: 0; }
   .third__title {
     color: #159f85;
     font-size: 18px;
